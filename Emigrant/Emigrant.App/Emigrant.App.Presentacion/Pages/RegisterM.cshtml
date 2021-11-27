@@ -1,0 +1,62 @@
+﻿@page
+@model Emigrant.App.Presentacion.Pages.RegisterMModel
+@{
+}
+<div class="card-header" style="background-color:#FCC16D;">
+		<h1 class="card-title" >Registro de migrante</h1>
+	</div>
+
+<form method="post">
+
+	
+	<div >
+		<input type="email" class="form-control" id="Correo" placeholder="Correo" name="Correo" required>
+	</div>
+	<div >
+		<input type="text" class="form-control" id="Contrasena" required minlength="8" min="8" placeholder="Contraseña" name="Contrasena" required>
+	</div>
+	
+	<div >
+		<input type="text" class="form-control" id="Nombre" placeholder="Nombres" name="Nombre" required>
+		<input type="text" class="form-control" id="Apellido" placeholder="Apellidos" name="Apellido" required>
+		
+	</div>
+	<div >
+		<input type="text" class="form-control" id="Direccion" placeholder="Direccion" name="Direccion">
+		<input type="text" class="form-control" id="Ciudad" placeholder="Ciudad" name="Ciudad">
+	</div>
+	
+	<div >
+		<div>
+			<select  name="TipoDoc" id="TipoDoc" onchange="ShowSelected()" required>
+				<option value="">Seleccione tipo de documento</option>
+				<option value="CE">Cedula de Extranjeria</option>
+				<option value="Pass">Pasaporte</option>
+				<option value="Visa">Visa</option>
+				<option value="NT">No tiene</option>
+			</select>
+		</div>
+		<input type="number" class="form-control" id="Documento" placeholder="Numero documento" name="Documento" required>
+	</div>
+	
+	<div >
+		<input type="text" class="form-control" id="FechaNacimiento" placeholder="Fecha de Nacimiento" name="FechaNacimiento" required>
+		<input type="text" class="form-control" id="PaisOrigen" placeholder="Pais Origen" name="PaisOrigen" required>
+	</div>
+	
+	<div >
+		<div>
+			<select class="form-control" name="SituacionLaboral" id="SituacionLaboral" onchange="ShowSelected()">
+				<option value="">Seleccione su situacion laboral</option>
+				<option value="EMP">Empleado</option>
+				<option value="TrI">Trabajo independiente</option>
+				<option value="SEM">Sin empleo</option>
+			</select>
+		</div>
+		<input type="text" class="form-control" id="Telefono" placeholder="Telefono" name="Telefono">
+	</div>
+	
+	<div >
+            <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#FB6A3B; ">Registrar Usuario</button>
+    </div>
+</form>

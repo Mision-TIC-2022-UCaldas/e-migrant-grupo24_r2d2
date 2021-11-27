@@ -1,0 +1,36 @@
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.AssemblyInfo.cs
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\Emigrant.App.Dominio.deps.json
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\Emigrant.App.Dominio.dll
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\ref\Emigrant.App.Dominio.dll
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\Emigrant.App.Dominio.pdb
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.dll
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\ref\Emigrant.App.Dominio.dll
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\Emigrant.App.Dominio.deps.json
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\Emigrant.App.Dominio.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\ref\Emigrant.App.Dominio.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\Emigrant.App.Dominio.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.csproj.AssemblyReference.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.AssemblyInfoInputs.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.AssemblyInfo.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.csproj.CoreCompileInputs.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\ref\Emigrant.App.Dominio.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\Emigrant.App.Dominio.deps.json
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\Emigrant.App.Dominio.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\ref\Emigrant.App.Dominio.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\bin\Debug\net5.0\Emigrant.App.Dominio.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.csproj.AssemblyReference.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.AssemblyInfoInputs.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.AssemblyInfo.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.csproj.CoreCompileInputs.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\ref\Emigrant.App.Dominio.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\net5.0\Emigrant.App.Dominio.pdb

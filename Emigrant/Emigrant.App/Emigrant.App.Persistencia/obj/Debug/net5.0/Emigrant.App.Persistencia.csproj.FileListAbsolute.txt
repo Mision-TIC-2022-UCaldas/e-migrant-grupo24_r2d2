@@ -1,0 +1,54 @@
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.deps.json
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.runtimeconfig.json
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.runtimeconfig.dev.json
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.dll
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\ref\Emigrant.App.Persistencia.dll
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.pdb
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.AssemblyInfo.cs
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.dll
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\ref\Emigrant.App.Persistencia.dll
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.pdb
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.genruntimeconfig.cache
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Dominio.dll
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Dominio.pdb
+C:\Users\ladyr\Documents\mistic2021\hackatoon\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.csproj.CopyComplete
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.csproj.AssemblyReference.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.AssemblyInfoInputs.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.AssemblyInfo.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.csproj.CoreCompileInputs.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\ref\Emigrant.App.Persistencia.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.deps.json
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.runtimeconfig.json
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.runtimeconfig.dev.json
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\ref\Emigrant.App.Persistencia.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Dominio.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Dominio.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.csproj.CopyComplete
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.genruntimeconfig.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.deps.json
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.runtimeconfig.json
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.runtimeconfig.dev.json
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\ref\Emigrant.App.Persistencia.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Persistencia.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Dominio.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\net5.0\Emigrant.App.Dominio.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.csproj.AssemblyReference.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.AssemblyInfoInputs.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.AssemblyInfo.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.csproj.CoreCompileInputs.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.csproj.CopyComplete
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\ref\Emigrant.App.Persistencia.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\net5.0\Emigrant.App.Persistencia.genruntimeconfig.cache
