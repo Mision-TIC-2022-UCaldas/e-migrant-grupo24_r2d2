@@ -16,11 +16,30 @@ namespace Emigrant.App.Presentacion.Pages
 
         private static IRepositorioEntidad _repoEntidad = new RepositorioEntidad(new Emigrant.App.Persistencia.AppContext());
 
+         [BindProperty]
+        public int status { get; set; } = 0;
+
+        [BindProperty]
+        public string message { get; set; } =  "";
         public void OnPostAdd(Emigrant.App.Dominio.Entidad entidad)
         {
-            entidad.Contrasena = ObtenerMd5(entidad.Contrasena);
-			_repoEntidad.AddEntidad(entidad);     
-            Console.WriteLine("Entidad agregado "+ entidad.RazonSocial);       
+            if(_repoEntidad.SearchCorreoEntidad(entidad.Correo)){
+                Console.WriteLine("Entidad no agregada");
+                status = 2;
+                message = "Correo digitado ya existe";
+            }
+            else if(_repoEntidad.SearchNITEntidad(entidad.NIT)){
+                    status = 2;
+                    message = "NIT ya esta registrado";
+            }
+            else
+            {
+                entidad.Contrasena = ObtenerMd5(entidad.Contrasena);
+                _repoEntidad.AddEntidad(entidad);     
+                Console.WriteLine("Entidad agregada "+ entidad.RazonSocial); 
+                status = 2;
+                message = "Entidad agregada";
+            }      
         }
         public string ObtenerMd5(string input)
         {

@@ -15,15 +15,34 @@ namespace Emigrant.App.Presentacion.Pages
     {
         private static IRepositorioMigrante_ _repoMigrante = new RepositorioMigrante_(new Emigrant.App.Persistencia.AppContext());
 
+        [BindProperty]
+        public int status { get; set; } = 0;
+
+        [BindProperty]
+        public string message { get; set; } =  "";
+
         public void OnGet()
         {
         }
 
         public void OnPostAdd(Emigrant.App.Dominio.Migrante_ migrante)
-        {
-            migrante.Contrasena = ObtenerMd5(migrante.Contrasena);
-			_repoMigrante.AddMigrante(migrante);     
-            Console.WriteLine("Migrante agregado "+ migrante.Nombre);       
+        {            
+            if(_repoMigrante.SearchCorreoMigrante(migrante.Correo)){
+                Console.WriteLine("Migrante no agregado");
+                status = 2;
+                    message = "Correo digitado ya existe";
+            }
+            else if(_repoMigrante.SearchDocumentoMigrante(migrante.Documento)){
+                    status = 2;
+                    message = "Documento ya existe";
+            }
+            else
+            {
+                migrante.Contrasena = ObtenerMd5(migrante.Contrasena);
+			    _repoMigrante.AddMigrante(migrante); 
+                status = 2;
+                message = "Migrante agregado "+ migrante.Nombre;
+            }   
         }
 
         public string ObtenerMd5(string input)

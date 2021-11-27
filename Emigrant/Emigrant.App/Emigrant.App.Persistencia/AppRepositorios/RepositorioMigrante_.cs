@@ -20,5 +20,22 @@ namespace Emigrant.App.Persistencia
             _appContext.SaveChanges();
             return migranteAdicionado.Entity;
         }
+        bool IRepositorioMigrante_.SearchCorreoMigrante(string correo){
+            var migranteEncontrado = _appContext.migrantes.FirstOrDefault(g => g.Correo == correo);
+            
+            if(migranteEncontrado != null)
+                return true;
+            else
+                return false;
+        }
+        bool IRepositorioMigrante_.SearchDocumentoMigrante(string documento){
+            var migranteEncontrado = _appContext.migrantes.FirstOrDefault(g => g.Documento == documento);
+            
+            if(migranteEncontrado != null)
+                return true;
+            else
+                return false;
+
+        }
     }
 }

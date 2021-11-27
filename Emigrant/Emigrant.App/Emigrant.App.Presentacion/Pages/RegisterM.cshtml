@@ -13,7 +13,7 @@
 		<input type="email" class="form-control" id="Correo" placeholder="Correo" name="Correo" required>
 	</div>
 	<div >
-		<input type="text" class="form-control" id="Contrasena" required minlength="8" min="8" placeholder="Contraseña" name="Contrasena" required>
+		<input type="password" class="form-control" id="Contrasena" required minlength="8" min="8" placeholder="Contraseña" name="Contrasena" required>
 	</div>
 	
 	<div >
@@ -60,3 +60,15 @@
             <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#FB6A3B; ">Registrar Usuario</button>
     </div>
 </form>
+
+@if (Model.status == 2) {
+      <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-danger alert-dismissible">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+              <h5><i class="icon fas fa-ban"></i>Mensaje</h5>
+              @Model.message
+            </div>
+        </div>
+      </div>
+    } 

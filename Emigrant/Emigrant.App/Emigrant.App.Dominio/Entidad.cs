@@ -14,6 +14,6 @@ namespace Emigrant.App.Dominio
       public string Telefono { get; set; }
       public string Sector { get; set; }
       public string TipoServicios { get; set; }
-        
+      public string PaginaWeb { get; set; }
     }
 }

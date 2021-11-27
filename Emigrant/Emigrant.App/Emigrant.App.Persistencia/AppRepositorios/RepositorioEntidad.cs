@@ -20,5 +20,27 @@ namespace Emigrant.App.Persistencia
             _appContext.SaveChanges();
             return entidadAdicionado.Entity;
         }
+
+        Entidad IRepositorioEntidad.StartSession(string Correo, string Contrasena) {             
+            var EntidadEncontrado = _appContext.entidades.FirstOrDefault(g => g.Correo == Correo && g.Contrasena == Contrasena);
+            return EntidadEncontrado;
+        }
+
+        bool IRepositorioEntidad.SearchCorreoEntidad(string correo){
+            var entidadEncontrada = _appContext.entidades.FirstOrDefault(g => g.Correo == correo);
+        
+            if(entidadEncontrada != null)
+                return true;
+            else
+                return false;
+        }
+        bool IRepositorioEntidad.SearchNITEntidad(string nit){
+            var entidadEncontrada = _appContext.entidades.FirstOrDefault(g => g.NIT == nit);
+        
+            if(entidadEncontrada != null)
+                return true;
+            else
+                return false;
+        }
     }
 }
