@@ -32,19 +32,34 @@ namespace Emigrant.App.Presentacion.Pages
         public void OnPostStartSession(string Correo, string Contrasena)
         {
             Contrasena = ObtenerMd5(Contrasena);
+            
             migrante = _repoMigrante.StartSession(Correo, Contrasena);
             if(migrante != null){ 
-                status = 2; 
-                sesion = 1;
-                message = "Inicio de sesion de " + migrante.Nombre;
+                if(migrante.estado == "habilitado"){
+                    status = 1; 
+                    sesion = 1;
+                    message = "Inicio de sesion de " + migrante.Nombre;
+                }
+                else{
+                    
+                    status = 2; 
+                    sesion = 0;
+                    message = "Cuenta suspendida";
+                }
             }
             else
             {
                 entidad = _repoEntidad.StartSession(Correo, Contrasena);
                 if(entidad != null){ 
-                    status = 2; 
-                    sesion = 2;
-                    message = "Inicio de sesion de " + entidad.RazonSocial;
+                    if(entidad.estado == "habilitado" ){
+                        status = 1; 
+                        sesion = 2;
+                        message = "Inicio de sesion de " + entidad.RazonSocial;
+                    }else{
+                        status = 2; 
+                        sesion = 0;
+                        message = "Cuenta suspendida";
+                    }
                 }
                 else
                 {
@@ -53,6 +68,7 @@ namespace Emigrant.App.Presentacion.Pages
                     message = "Inicio de sesion Incorrecto";
                 }
             }
+            
         }
         public string ObtenerMd5(string input)
         {

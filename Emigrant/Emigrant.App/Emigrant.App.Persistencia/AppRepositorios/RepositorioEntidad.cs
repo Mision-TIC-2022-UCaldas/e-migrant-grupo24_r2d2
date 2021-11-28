@@ -28,10 +28,10 @@ namespace Emigrant.App.Persistencia
         Entidad IRepositorioEntidad.StartSession(string Correo, string Contrasena) {             
             var entidadEncontrada = _appContext.entidades.FirstOrDefault(g => g.Correo == Correo && g.Contrasena == Contrasena );
             
-            if(entidadEncontrada != null && entidadEncontrada.estado == "habilitado")
-                return entidadEncontrada;
-            else
-                return null;
+            //if(entidadEncontrada != null && entidadEncontrada.estado == "habilitado")
+            return entidadEncontrada;
+            //else
+            //    return null;
         }
 
         bool IRepositorioEntidad.SearchCorreoEntidad(string correo){

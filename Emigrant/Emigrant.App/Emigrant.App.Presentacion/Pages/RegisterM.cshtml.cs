@@ -42,7 +42,7 @@ namespace Emigrant.App.Presentacion.Pages
                 migrante.TipoCuenta = 2;
                 migrante.Contrasena = ObtenerMd5(migrante.Contrasena);
 			    _repoMigrante.AddMigrante(migrante); 
-                status = 2;
+                status = 1;
                 message = "Migrante agregado "+ migrante.Nombre;
             }   
         }

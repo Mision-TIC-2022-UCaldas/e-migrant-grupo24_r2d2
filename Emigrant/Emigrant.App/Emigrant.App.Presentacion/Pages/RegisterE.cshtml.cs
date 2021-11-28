@@ -16,11 +16,12 @@ namespace Emigrant.App.Presentacion.Pages
 
         private static IRepositorioEntidad _repoEntidad = new RepositorioEntidad(new Emigrant.App.Persistencia.AppContext());
 
-         [BindProperty]
+        [BindProperty]
         public int status { get; set; } = 0;
 
         [BindProperty]
         public string message { get; set; } =  "";
+        
         public void OnPostAdd(Emigrant.App.Dominio.Entidad entidad)
         {
             if(_repoEntidad.SearchCorreoEntidad(entidad.Correo)){
@@ -35,11 +36,11 @@ namespace Emigrant.App.Presentacion.Pages
             else
             {
                 entidad.estado = "habilitado";
-                entidad.TipoCuenta = 2;
+                entidad.TipoCuenta = 1;
                 entidad.Contrasena = ObtenerMd5(entidad.Contrasena);
                 _repoEntidad.AddEntidad(entidad);     
                 Console.WriteLine("Entidad agregada "+ entidad.RazonSocial); 
-                status = 2;
+                status = 1;
                 message = "Entidad agregada";
             }      
         }

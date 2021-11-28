@@ -148,3 +148,6 @@ F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.
 F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Admin.cshtml.g.cs
 F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Admin\ListarCuentas.cshtml.g.cs
 F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Admin\SuspenderCuenta.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ConsultarInformacion.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ActualizarInformacion.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ActualizarContrasena.cshtml.g.cs

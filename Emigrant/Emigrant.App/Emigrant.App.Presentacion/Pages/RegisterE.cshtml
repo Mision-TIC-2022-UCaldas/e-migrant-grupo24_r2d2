@@ -5,7 +5,6 @@
 <div class="card-header" style="background-color:#FCC16D;">
 		<h1 class="card-title" >Registro de Entidad</h1>
 	</div>
-
 <form method="post">
 
 
@@ -44,15 +43,15 @@
 	<div >
 		<select class="form-control" name="TipoServicios" id="TipoServicios" onchange="ShowSelected()" required>
 			<option value="">Seleccione los tipos de servicios</option>
-			<option value="SAL">Salud</option>
-			<option value="JUR">Juridicos</option>
-			<option value="VIV">Viveres</option>
-			<option value="CPRE">Comida Preparada</option>
-			<option value="EMP">Empleo</option>
-			<option value="ATEM">Alojamiento Temporal</option>
-			<option value="APER">Alojamiento Permanente</option>
-			<option value="EDU">Educacion</option>
-			<option value="OTR">Otro</option>
+			<option value="Salud">Salud</option>
+			<option value="Juridicos">Juridicos</option>
+			<option value="Viveres">Viveres</option>
+			<option value="Comida Preparada">Comida Preparada</option>
+			<option value="Empleo">Empleo</option>
+			<option value="Alojamiento Temporal">Alojamiento Temporal</option>
+			<option value="Alojamiento Permanente">Alojamiento Permanente</option>
+			<option value="Educacion">Educacion</option>
+			<option value="Otro">Otro</option>
 		</select>
 	</div>
 	
@@ -61,6 +60,18 @@
             <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#FB6A3B; ">Registrar Entidad</button>
     </div>
 </form>
+
+@if (Model.status == 1) {
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="alert alert-success alert-dismissible">
+                          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                          <h5><i class="icon fas fa-ban"></i> Mensaje</h5>
+                          @Model.message
+                      </div>
+                  </div>
+              </div>
+            }
 
 @if (Model.status == 2) {
       <div class="row">
