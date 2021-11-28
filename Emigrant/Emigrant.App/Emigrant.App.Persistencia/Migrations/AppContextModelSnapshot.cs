@@ -18,6 +18,48 @@ namespace Emigrant.App.Persistencia.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
+            modelBuilder.Entity("Emigrant.App.Dominio.AF", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("IdPrimeraPersona")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdSegundaPersona")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Tipo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("amigoFam");
+                });
+
+            modelBuilder.Entity("Emigrant.App.Dominio.Admin", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Correo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cotrasena")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Permisos")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("administrador");
+                });
+
             modelBuilder.Entity("Emigrant.App.Dominio.Entidad", b =>
                 {
                     b.Property<int>("Id")
@@ -52,7 +94,13 @@ namespace Emigrant.App.Persistencia.Migrations
                     b.Property<string>("Telefono")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("TipoCuenta")
+                        .HasColumnType("int");
+
                     b.Property<string>("TipoServicios")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("estado")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -60,7 +108,7 @@ namespace Emigrant.App.Persistencia.Migrations
                     b.ToTable("entidades");
                 });
 
-            modelBuilder.Entity("Emigrant.App.Dominio.Migrante_", b =>
+            modelBuilder.Entity("Emigrant.App.Dominio.Migrante", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -100,12 +148,39 @@ namespace Emigrant.App.Persistencia.Migrations
                     b.Property<string>("Telefono")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("TipoCuenta")
+                        .HasColumnType("int");
+
                     b.Property<string>("TipoDoc")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("estado")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("migrantes");
+                });
+
+            modelBuilder.Entity("Emigrant.App.Dominio.Servicio", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Clasificacion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Detalle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TipoNecesidad")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("servicios");
                 });
 #pragma warning restore 612, 618
         }

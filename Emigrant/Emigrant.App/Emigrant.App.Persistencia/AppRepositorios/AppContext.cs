@@ -8,8 +8,11 @@ namespace Emigrant.App.Persistencia
 
     public class AppContext: DbContext
     {
-        public DbSet<Migrante_> migrantes {get;set;}
+        public DbSet<Migrante> migrantes {get;set;}
         public DbSet<Entidad> entidades {get;set;}
+        public DbSet<Admin> administrador {get;set;}
+        public DbSet<Servicio> servicios {get;set;}
+        public DbSet<AF> amigoFam {get;set;}
     
 
 

@@ -15,5 +15,7 @@ namespace Emigrant.App.Dominio
       public string Sector { get; set; }
       public string TipoServicios { get; set; }
       public string PaginaWeb { get; set; }
+      public int TipoCuenta{ get; set;}
+      public string estado { get; set; }
     }
 }

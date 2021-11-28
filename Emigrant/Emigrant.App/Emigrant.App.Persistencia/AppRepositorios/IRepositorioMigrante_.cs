@@ -4,11 +4,13 @@ using System.Collections.Generic;
 
 namespace Emigrant.App.Persistencia
 {
-    public interface IRepositorioMigrante_
+    public interface IRepositorioMigrante
     {
-        Migrante_ AddMigrante(Migrante_ migrante);
+        Migrante AddMigrante(Migrante migrante);
+
+        IEnumerable<Migrante> GetAllMigrantes();
         bool SearchCorreoMigrante(string correo);
         bool SearchDocumentoMigrante(string documento);
-        Migrante_ StartSession(string Correo, string Contrasena);
+        Migrante StartSession(string Correo, string Contrasena);
     }
 }

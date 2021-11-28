@@ -13,7 +13,7 @@ namespace Emigrant.App.Presentacion.Pages
 {
     public class RegisterMModel : PageModel
     {
-        private static IRepositorioMigrante_ _repoMigrante = new RepositorioMigrante_(new Emigrant.App.Persistencia.AppContext());
+        private static IRepositorioMigrante _repoMigrante = new RepositorioMigrante(new Emigrant.App.Persistencia.AppContext());
 
         [BindProperty]
         public int status { get; set; } = 0;
@@ -25,7 +25,7 @@ namespace Emigrant.App.Presentacion.Pages
         {
         }
 
-        public void OnPostAdd(Emigrant.App.Dominio.Migrante_ migrante)
+        public void OnPostAdd(Emigrant.App.Dominio.Migrante migrante)
         {            
             if(_repoMigrante.SearchCorreoMigrante(migrante.Correo)){
                 Console.WriteLine("Migrante no agregado");
@@ -38,6 +38,8 @@ namespace Emigrant.App.Presentacion.Pages
             }
             else
             {
+                migrante.estado = "habilitado";
+                migrante.TipoCuenta = 2;
                 migrante.Contrasena = ObtenerMd5(migrante.Contrasena);
 			    _repoMigrante.AddMigrante(migrante); 
                 status = 2;

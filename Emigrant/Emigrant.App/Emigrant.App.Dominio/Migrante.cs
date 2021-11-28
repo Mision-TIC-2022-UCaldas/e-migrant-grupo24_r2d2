@@ -2,7 +2,7 @@ using System;
 
 namespace Emigrant.App.Dominio
 {
-    public class Migrante_
+    public class Migrante
     {
       public int Id { get; set; }
       public string Nombre { get; set; }
@@ -17,6 +17,8 @@ namespace Emigrant.App.Dominio
       public string SituacionLaboral { get; set; }
       public string Telefono { get; set; }
       public string Direccion { get; set; }
+      public string estado { get; set; }
+      public int TipoCuenta{ get; set;}
         
     }
 }

@@ -7,6 +7,7 @@ namespace Emigrant.App.Persistencia
     public interface IRepositorioEntidad
     {
         Entidad AddEntidad(Entidad entidad);
+        IEnumerable<Entidad> GetAllEntidades();
         Entidad StartSession(string Correo, string Contrasena);
         bool SearchCorreoEntidad(string correo);
         bool SearchNITEntidad(string nit);

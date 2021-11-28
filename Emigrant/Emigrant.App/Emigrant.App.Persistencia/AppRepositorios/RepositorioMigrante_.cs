@@ -5,27 +5,35 @@ using System.Linq;
 
 namespace Emigrant.App.Persistencia
 {
-    public class RepositorioMigrante_ : IRepositorioMigrante_
+    public class RepositorioMigrante : IRepositorioMigrante
     {
         private readonly AppContext _appContext;
 
-        public RepositorioMigrante_(AppContext appContext)
+        public RepositorioMigrante(AppContext appContext)
         {
             _appContext = appContext;
         }
         
-        Migrante_ IRepositorioMigrante_.AddMigrante(Migrante_ migrante)
+        Migrante IRepositorioMigrante.AddMigrante(Migrante migrante)
         {
             var migranteAdicionado = _appContext.migrantes.Add(migrante);
             _appContext.SaveChanges();
             return migranteAdicionado.Entity;
         }
 
-        Migrante_ IRepositorioMigrante_.StartSession(string Correo, string Contrasena) {             
-            var MigranteEncontrado = _appContext.migrantes.FirstOrDefault(g => g.Correo == Correo && g.Contrasena == Contrasena);
-            return MigranteEncontrado;
+        IEnumerable<Migrante> IRepositorioMigrante.GetAllMigrantes() {
+            return _appContext.migrantes;
         }
-        bool IRepositorioMigrante_.SearchCorreoMigrante(string correo){
+
+        Migrante IRepositorioMigrante.StartSession(string Correo, string Contrasena) {             
+            var MigranteEncontrado = _appContext.migrantes.FirstOrDefault(g => g.Correo == Correo && g.Contrasena == Contrasena);
+            
+            if(MigranteEncontrado != null && MigranteEncontrado.estado == "habilitado")
+                return MigranteEncontrado;
+            else
+                return null;
+        }
+        bool IRepositorioMigrante.SearchCorreoMigrante(string correo){
             var migranteEncontrado = _appContext.migrantes.FirstOrDefault(g => g.Correo == correo);
             
             if(migranteEncontrado != null)
@@ -33,7 +41,7 @@ namespace Emigrant.App.Persistencia
             else
                 return false;
         }
-        bool IRepositorioMigrante_.SearchDocumentoMigrante(string documento){
+        bool IRepositorioMigrante.SearchDocumentoMigrante(string documento){
             var migranteEncontrado = _appContext.migrantes.FirstOrDefault(g => g.Documento == documento);
             
             if(migranteEncontrado != null)

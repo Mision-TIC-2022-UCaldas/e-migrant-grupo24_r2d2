@@ -14,10 +14,9 @@ namespace Emigrant.App.Presentacion.Pages
     public class IniciarSesionModel : PageModel
     {
         private static IRepositorioEntidad _repoEntidad = new RepositorioEntidad(new Emigrant.App.Persistencia.AppContext());
-        private static IRepositorioMigrante_ _repoMigrante = new RepositorioMigrante_(new Emigrant.App.Persistencia.AppContext());
+        private static IRepositorioMigrante _repoMigrante = new RepositorioMigrante(new Emigrant.App.Persistencia.AppContext());
 
-        public Migrante_ migrante { get; set; }
-
+        public Migrante migrante { get; set; }
         public Entidad entidad { get; set; }
         [BindProperty]
         public int status { get; set; } = 0;

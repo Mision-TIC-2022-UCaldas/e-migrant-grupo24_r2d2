@@ -59,7 +59,7 @@ namespace Emigrant.App.Persistencia.Migrations
                     b.ToTable("entidades");
                 });
 
-            modelBuilder.Entity("Emigrant.App.Dominio.Migrante_", b =>
+            modelBuilder.Entity("Emigrant.App.Dominio.Migrante", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

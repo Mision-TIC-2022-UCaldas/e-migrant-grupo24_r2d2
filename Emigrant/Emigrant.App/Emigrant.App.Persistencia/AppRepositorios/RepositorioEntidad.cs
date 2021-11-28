@@ -13,6 +13,10 @@ namespace Emigrant.App.Persistencia
         {
             _appContext = appContext;
         }
+
+        IEnumerable<Entidad> IRepositorioEntidad.GetAllEntidades() {
+            return _appContext.entidades;
+        }
         
         Entidad IRepositorioEntidad.AddEntidad(Entidad entidad)
         {
@@ -22,7 +26,7 @@ namespace Emigrant.App.Persistencia
         }
 
         Entidad IRepositorioEntidad.StartSession(string Correo, string Contrasena) {             
-            var EntidadEncontrado = _appContext.entidades.FirstOrDefault(g => g.Correo == Correo && g.Contrasena == Contrasena);
+            var EntidadEncontrado = _appContext.entidades.FirstOrDefault(g => g.Correo == Correo && g.Contrasena == Contrasena );
             return EntidadEncontrado;
         }
 

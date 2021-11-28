@@ -34,6 +34,8 @@ namespace Emigrant.App.Presentacion.Pages
             }
             else
             {
+                entidad.estado = "habilitado";
+                entidad.TipoCuenta = 2;
                 entidad.Contrasena = ObtenerMd5(entidad.Contrasena);
                 _repoEntidad.AddEntidad(entidad);     
                 Console.WriteLine("Entidad agregada "+ entidad.RazonSocial); 
