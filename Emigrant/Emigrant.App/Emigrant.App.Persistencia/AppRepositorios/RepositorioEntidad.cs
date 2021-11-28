@@ -26,8 +26,12 @@ namespace Emigrant.App.Persistencia
         }
 
         Entidad IRepositorioEntidad.StartSession(string Correo, string Contrasena) {             
-            var EntidadEncontrado = _appContext.entidades.FirstOrDefault(g => g.Correo == Correo && g.Contrasena == Contrasena );
-            return EntidadEncontrado;
+            var entidadEncontrada = _appContext.entidades.FirstOrDefault(g => g.Correo == Correo && g.Contrasena == Contrasena );
+            
+            if(entidadEncontrada != null && entidadEncontrada.estado == "habilitado")
+                return entidadEncontrada;
+            else
+                return null;
         }
 
         bool IRepositorioEntidad.SearchCorreoEntidad(string correo){

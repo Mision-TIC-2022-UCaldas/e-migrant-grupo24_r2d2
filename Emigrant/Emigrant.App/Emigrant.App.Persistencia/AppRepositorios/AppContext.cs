@@ -4,8 +4,6 @@ using Emigrant.App.Dominio;
 
 namespace Emigrant.App.Persistencia
  {
-
-
     public class AppContext: DbContext
     {
         public DbSet<Migrante> migrantes {get;set;}
@@ -13,9 +11,8 @@ namespace Emigrant.App.Persistencia
         public DbSet<Admin> administrador {get;set;}
         public DbSet<Servicio> servicios {get;set;}
         public DbSet<AF> amigoFam {get;set;}
+        public DbSet<Gerente> gerentes {get; set;}
     
-
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
            if(!optionsBuilder.IsConfigured) 

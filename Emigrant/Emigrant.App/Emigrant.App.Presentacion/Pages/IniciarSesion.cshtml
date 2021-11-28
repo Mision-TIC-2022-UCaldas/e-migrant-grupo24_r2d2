@@ -56,15 +56,15 @@ Ingrese sus credenciales para iniciar sesión
 @if (Model.sesion == 1)
 {
     <div>
-        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#FB6A3B; ">Agregar
+        <button type="submit" class="btn btn-primary"  style="background-color:#FB6A3B; ">Agregar
             amigos o familiares</button>
     </div>
     <div>
-        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#FB6A3B; ">Buscar
+        <button type="submit" class="btn btn-primary"  style="background-color:#FB6A3B; ">Buscar
             Servicios</button>
     </div>
     <div>
-        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#FB6A3B; ">Consultar
+        <button type="submit" class="btn btn-primary"  style="background-color:#FB6A3B; ">Consultar
             amigos</button>
     </div>
 }
@@ -72,18 +72,27 @@ Ingrese sus credenciales para iniciar sesión
 @if (Model.sesion == 2)
 {
     <div>
-        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#3272B8
+        <button type="submit" class="btn btn-primary"  style="background-color:#3272B8
 ; ">Registrar un
             servicio</button>
     </div>
     <div>
-        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#3272B8
+        <button type="submit" class="btn btn-primary"  style="background-color:#3272B8
 ; ">Actualizar
             servicio</button>
     </div>
     <div>
-        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#3272B8
+        <button type="submit" class="btn btn-primary"  style="background-color:#3272B8
 ; ">Buscar
             informacion migrantes</button>
     </div>
+}
+
+@if (Model.sesion == 3)
+{
+    <div>
+        <button type="submit" class="btn btn-primary"  style="background-color:#3272B8
+; ">Funciones Gerente</button>
+    </div>
+    
 }

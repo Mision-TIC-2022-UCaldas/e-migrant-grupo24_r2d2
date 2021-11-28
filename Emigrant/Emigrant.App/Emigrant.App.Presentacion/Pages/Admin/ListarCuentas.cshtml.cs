@@ -21,11 +21,16 @@ namespace Emigrant.App.Presentacion.Pages
         
         public IEnumerable<Entidad> entidades { get; private set;}
 
+        private static IRepositorioGerente _repoGerente = new RepositorioGerente(new Persistencia.AppContext());
+        
+        public IEnumerable<Gerente> gerentes { get; private set;}
+
         
         public void OnGet()
         {
             migrantes = _repoMigrante.GetAllMigrantes();
             entidades = _repoEntidad.GetAllEntidades();
+            gerentes = _repoGerente.GetAllGerentes();
         }
     }
 }

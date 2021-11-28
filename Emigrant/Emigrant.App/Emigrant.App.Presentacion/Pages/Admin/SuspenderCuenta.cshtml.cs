@@ -14,9 +14,11 @@ namespace Emigrant.App.Presentacion.Pages
     public class SuspenderCuentaModel : PageModel
     {
         private static IRepositorioAdmin _repoAdmin = new RepositorioAdmin(new Persistencia.AppContext());
+
         public Admin admin { get; set; }
         public Migrante migrante { get; set; }
         public Entidad entidad { get; set; }
+        public Gerente gerente { get; set; }
         [BindProperty]
         public int status { get; set; } = 0;
 
@@ -48,9 +50,21 @@ namespace Emigrant.App.Presentacion.Pages
                     status = 2;
                     message = "La cuenta no existe o no pudo ser suspendida";
                 }
+            }else if(Type == 3)
+            {
+                gerente = _repoAdmin.CancelarCuentaGerente(Id);
+                if(gerente!=null){
+                    status = 2;
+                    message = "La cuenta de " + gerente.Nombre + " Fue suspendida";
+                }
+                else{
+                    status = 2;
+                    message = "La cuenta no existe o no pudo ser suspendida";
+                }
             }
-            else{ 
-                //gerente
+            else{
+                status = 2;
+                message = "Sin funcion";
             }
                 
         }

@@ -8,6 +8,7 @@ namespace Emigrant.App.Persistencia
     {
         Entidad CancelarCuentaEntidad(int idEntidad);
         Migrante CancelarCuentaMigrante(int idMigrante);
+        Gerente CancelarCuentaGerente(int idGerente);
 
         Admin StartSession(string Correo, string Contrasena);
 

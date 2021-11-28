@@ -40,5 +40,16 @@ namespace Emigrant.App.Persistencia
             
             return migranteEncontrado;
         }
+
+        Gerente IRepositorioAdmin.CancelarCuentaGerente(int idGerente)
+        {
+            var gerenteEncontrado = _appContext.gerentes.FirstOrDefault(g => g.Id == idGerente);
+            if(gerenteEncontrado != null){
+                gerenteEncontrado.estado = "cancelado";
+                _appContext.SaveChanges();
+            }
+            
+            return gerenteEncontrado;
+        }
     }
 }
