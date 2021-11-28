@@ -8,6 +8,23 @@
     <h1 class="card-title">Actualizar informacion</h1>
 </div>
 
+@section Scripts {
+
+<script src="~/adminlte/plugins/moment/moment.min.js"></script>
+<script src="~/adminlte/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+
+<script src="~/adminlte/plugins/daterangepicker/daterangepicker.js"></script>
+
+
+<script>
+	$(function () {
+		$('#FechaNacimiento').datetimepicker({
+			format: 'L'
+		})
+	})
+</script>
+}
+
 <form method="post">
 
 
@@ -41,6 +58,15 @@
     </div>
 
     <div>
+        <div class="form-group">
+			<label>Fecha de Nacimiento:</label>
+			<div id="FechaNacimiento" class="input-group date" data-target-input="nearest">
+				<input asp-for="migranteEncontrado.FechaNacimiento" class="form-control datetimepicker-input" type="text" data-target="#FechaNacimiento" name="Fecha">
+				<div class="input-group-append" data-target="#FechaNacimiento" data-toggle="datetimepicker">
+					<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+				</div>
+			</div>
+		</div>
         <input asp-for="migranteEncontrado.FechaNacimiento" type="text" class="form-control" id="FechaNacimiento"
             placeholder="*Fecha de Nacimiento" name="FechaNacimiento" required>
         <input asp-for="migranteEncontrado.PaisOrigen" type="text" class="form-control" id="PaisOrigen" placeholder="*Pais Origen" name="PaisOrigen" required>

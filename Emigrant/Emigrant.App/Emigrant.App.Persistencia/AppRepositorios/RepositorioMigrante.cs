@@ -37,6 +37,11 @@ namespace Emigrant.App.Persistencia
             return migranteEncontrado;
         }
 
+        Migrante IRepositorioMigrante.GetMigranteByDocumento(string Documento){
+            var migranteEncontrado = _appContext.migrantes.FirstOrDefault(g => g.Documento == Documento);            
+            return migranteEncontrado;
+        }
+
         bool IRepositorioMigrante.SearchCorreoMigrante(string correo){
             var migranteEncontrado = _appContext.migrantes.FirstOrDefault(g => g.Correo == correo);
             

@@ -3,4 +3,112 @@
 @{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>Privacy</h1>
+
+<div class="card-header" style="background-color:#FCC16D;">
+    <h1 class="card-title">Buscar por documento</h1>
+</div>
+
+<form method="post">
+
+
+    <div>
+        
+        <input type="text" class="form-control" id="Documento" placeholder="*Ingrese Documento para Buscar" name="Documento" required>
+        
+        
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary" asp-page-handler="Search"
+            style="background-color:#FB6A3B; ">Buscar Migrante</button>
+    </div>
+</form>
+
+
+
+
+@if (Model.status == 1) {
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="alert alert-success alert-dismissible">
+                          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                          <h5><i class="icon fas fa-ban"></i> Mensaje</h5>
+                          @Model.message
+                      </div>
+                  </div>
+              </div>
+            }
+
+@if (Model.status == 2) {
+      <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-danger alert-dismissible">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+              <h5><i class="icon fas fa-ban"></i>Mensaje</h5>
+              @Model.message
+            </div>
+        </div>
+      </div>
+    } 
+
+    
+    
+<div class="content-wrapper" style="display:flex; justify-content:center; align-items:start; background-color:#FFFFFF;">
+  <div class="container-fluid">
+    <div class="row" style="justify-content:center;">
+      <div class="col-md-12" style="padding-top:1rem; padding-left:1rem; padding-right:1rem; ">
+  
+        <div class="card">
+          <div class="card-header" style="background-color:#FCC16D; border-style:none; color:#000000;">
+            <h3 class="card-title">Migrante Encontrado</h3>
+
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+            </div>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body table-responsive p-0">
+            <table class="table table-hover text-nowrap">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Apellido</th>
+                  <th>Correo</th>
+                  <th>Direccion</th>
+                  <th>Ciudad</th>
+                  <th>Numero Documento</th>
+                  <th>Fecha Nacimiento</th>
+                  <th>Situacion Laboral</th>
+                  <th>Telefono</th>
+                </tr>
+              </thead>
+              <tbody>
+                  
+                  @{
+                      if(Model.migrante != null){
+                        <tr>
+                            <td>@Model.migrante.Nombre</td>
+                            <td>@Model.migrante.Apellido</td>
+                            <td>@Model.migrante.Correo</td>
+                            <td>@Model.migrante.Direccion</td>
+                            <td>@Model.migrante.Ciudad</td>
+                            <td>@Model.migrante.Documento</td>
+                            <td>@Model.migrante.FechaNacimiento</td>
+                            <td>@Model.migrante.SituacionLaboral</td>
+                            <td>@Model.migrante.Telefono</td>
+                        </tr>
+                      }
+                  }
+                
+              </tbody>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

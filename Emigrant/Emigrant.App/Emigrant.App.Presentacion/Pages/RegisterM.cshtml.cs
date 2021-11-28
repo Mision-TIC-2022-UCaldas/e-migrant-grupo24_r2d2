@@ -25,7 +25,7 @@ namespace Emigrant.App.Presentacion.Pages
         {
         }
 
-        public void OnPostAdd(Emigrant.App.Dominio.Migrante migrante)
+        public void OnPostAdd(Emigrant.App.Dominio.Migrante migrante, string Fecha)
         {            
             if(_repoMigrante.SearchCorreoMigrante(migrante.Correo)){
                 Console.WriteLine("Migrante no agregado");
@@ -38,12 +38,17 @@ namespace Emigrant.App.Presentacion.Pages
             }
             else
             {
+                string[] arrayFecha = Fecha.Split('/');
+
+                migrante.FechaNacimiento = new DateTime(Convert.ToInt32(arrayFecha[2]), Convert.ToInt32(arrayFecha[0]), Convert.ToInt32(arrayFecha[1]), 0, 0, 0);
+            
                 migrante.estado = "habilitado";
                 migrante.TipoCuenta = 2;
                 migrante.Contrasena = ObtenerMd5(migrante.Contrasena);
 			    _repoMigrante.AddMigrante(migrante); 
                 status = 1;
                 message = "Migrante agregado "+ migrante.Nombre;
+                
             }   
         }
 

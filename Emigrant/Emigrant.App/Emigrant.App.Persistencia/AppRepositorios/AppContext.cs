@@ -17,7 +17,7 @@ namespace Emigrant.App.Persistencia
         {
            if(!optionsBuilder.IsConfigured) 
            {
-               optionsBuilder.UseSqlServer("Data Source= (localdb)\\MSSQLLocalDB;Initial Catalog=Grupo24_R2D2_P1");
+               optionsBuilder.UseSqlServer("Data Source= (localdb)\\MSSQLLocalDB;Initial Catalog=Grupo24_R2D2_P2");
            }
         }
     }

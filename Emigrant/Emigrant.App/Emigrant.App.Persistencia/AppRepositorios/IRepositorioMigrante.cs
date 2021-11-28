@@ -10,6 +10,7 @@ namespace Emigrant.App.Persistencia
 
         IEnumerable<Migrante> GetAllMigrantes();
         Migrante GetMigranteByID(int idMigrante);
+        Migrante GetMigranteByDocumento(string Documento);
         bool SearchCorreoMigrante(string correo);
         bool SearchDocumentoMigrante(string documento);
         Migrante StartSession(string Correo, string Contrasena);

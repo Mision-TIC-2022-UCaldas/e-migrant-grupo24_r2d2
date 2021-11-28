@@ -11,7 +11,7 @@ namespace Emigrant.App.Dominio
       public string Contrasena { get; set; }
       public string TipoDoc { get; set; }
       public string Documento { get; set; }
-      public string FechaNacimiento { get; set; }
+      public DateTime FechaNacimiento { get; set; }
       public string Ciudad { get; set; }
       public string PaisOrigen { get; set; }
       public string SituacionLaboral { get; set; }

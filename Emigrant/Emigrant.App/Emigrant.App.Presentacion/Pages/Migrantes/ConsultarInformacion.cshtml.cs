@@ -20,8 +20,7 @@ namespace Emigrant.App.Presentacion.Pages
         //[BindProperty]
         //public bool estado { get; set; } = false;
 
-        [BindProperty]
-        public int status { get; set; } = 0;
+
         public void OnGet(int Id)
         {
             migrante = _repoMigrante.GetMigranteByID(Id);
