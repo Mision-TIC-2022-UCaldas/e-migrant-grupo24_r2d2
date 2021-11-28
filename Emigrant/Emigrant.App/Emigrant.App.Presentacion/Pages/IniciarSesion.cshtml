@@ -28,19 +28,60 @@ Ingrese sus credenciales para iniciar sesión
         <button type="submit" class="btn btn-primary btn-block" style="background-color: #FB6A3B;"
             asp-page-handler="StartSession">
             Iniciar sesión
-        </button>
+        </button> 
+
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-page="/RegisterM" style="background-color: #33FFEC;">Registrar Migrante</a>
+            <a class="nav-link text-dark" asp-area="" asp-page="/RegisterE" style="background-color: #33FFEC;">Registrar Entidad</a>
+        </li>
     </div>
 </form>
 
 
-@if (Model.status == 2) {
-      <div class="row">
+@if (Model.status == 2)
+{
+    <div class="row">
         <div class="col-md-12">
             <div class="alert alert-danger alert-dismissible">
-              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-              <h5><i class="icon fas fa-ban"></i>Mensaje</h5>
-              @Model.message
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <h5><i class="icon fas fa-ban"></i>Mensaje</h5>
+                @Model.message
             </div>
         </div>
-      </div>
-    } 
+    </div>
+}
+
+@if (Model.sesion == 1)
+{
+    <div>
+        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#FB6A3B; ">Agregar
+            amigos o familiares</button>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#FB6A3B; ">Buscar
+            Servicios</button>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#FB6A3B; ">Consultar
+            amigos</button>
+    </div>
+}
+
+@if (Model.sesion == 2)
+{
+    <div>
+        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#3272B8
+; ">Registrar un
+            servicio</button>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#3272B8
+; ">Actualizar
+            servicio</button>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary" asp-page-handler="Add" style="background-color:#3272B8
+; ">Buscar
+            informacion migrantes</button>
+    </div>
+}

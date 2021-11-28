@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TERPOkuyiBG+qjO2iV5AL4y1rb6VipyzdHohMIpXJvXJ9ezQhx8KkdtbbA4wo3rSRy7IZXYJ1ZwMyqEQRgkb4A==",
+  "dgSpecHash": "v1AvMpkqPU7eu5/AJrsCkMyaI93X3WGLoOhSjEzfYAzpCvI9IvfJ5ECZ0y8QqEwIhMgemtSxqwsUdETxjoYNRQ==",
   "success": true,
-  "projectFilePath": "F:\\Descargas\\Google chrome\\Emigrant-master\\Emigrant.App\\Emigrant.App.Console\\Emigrant.App.Console.csproj",
+  "projectFilePath": "F:\\Documentos\\Jesus\\MisionTIC\\Hackaton\\e-migrant-grupo24_r2d2\\Emigrant\\Emigrant.App\\Emigrant.App.Console\\Emigrant.App.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jesus Garcia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jesus Garcia\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

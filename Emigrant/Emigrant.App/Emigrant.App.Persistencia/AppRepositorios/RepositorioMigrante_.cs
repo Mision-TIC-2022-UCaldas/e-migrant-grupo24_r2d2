@@ -20,6 +20,11 @@ namespace Emigrant.App.Persistencia
             _appContext.SaveChanges();
             return migranteAdicionado.Entity;
         }
+
+        Migrante_ IRepositorioMigrante_.StartSession(string Correo, string Contrasena) {             
+            var MigranteEncontrado = _appContext.migrantes.FirstOrDefault(g => g.Correo == Correo && g.Contrasena == Contrasena);
+            return MigranteEncontrado;
+        }
         bool IRepositorioMigrante_.SearchCorreoMigrante(string correo){
             var migranteEncontrado = _appContext.migrantes.FirstOrDefault(g => g.Correo == correo);
             

@@ -9,5 +9,6 @@ namespace Emigrant.App.Persistencia
         Migrante_ AddMigrante(Migrante_ migrante);
         bool SearchCorreoMigrante(string correo);
         bool SearchDocumentoMigrante(string documento);
+        Migrante_ StartSession(string Correo, string Contrasena);
     }
 }
