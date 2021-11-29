@@ -72,15 +72,22 @@ Ingrese sus credenciales para iniciar sesión
     <form>
         <a class="btn btn-primary"asp-page="/Migrantes/ActualizarContrasena" asp-route-Id="@Model.migrante.Id" >Actualizar credencial</a>                    
     </form>
+    <form>
+        <a class="btn btn-primary"asp-page="/Migrantes/BuscarMigrante" asp-route-Id="@Model.migrante.Id"  >BuscarMigrante</a>                    
+    </form>
+    <form>
+        <a class="btn btn-primary"asp-page="/Migrantes/ListarAmigosFamiliares" asp-route-Id="@Model.migrante.Id"  >Listar amigos y familiares</a>                    
+    </form>
 }
 
 @if (Model.sesion == 2)
 {
-    <div>
-        <button type="submit" class="btn btn-primary"  style="background-color:#3272B8
-; ">Registrar un
-            servicio</button>
-    </div>
+    <form>
+        <a class="btn btn-primary"asp-page="/Entidades/ConsultarInformacionE" asp-route-Id="@Model.entidad.Id" >Consultar Informacion</a>                    
+    </form>
+    <form>
+        <a class="btn btn-primary"asp-page="/Entidades/ActualizarContrasenaE" asp-route-Id="@Model.entidad.Id" >Actualizar credencial</a>                    
+    </form>
     
 }
 
@@ -88,7 +95,7 @@ Ingrese sus credenciales para iniciar sesión
 {
     <div>
         <button type="submit" class="btn btn-primary"  style="background-color:#3272B8
-; ">Funciones Gerente</button>
+; ">Enviar Correo a Migrante</button>
     </div>
     
 }

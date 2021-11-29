@@ -28,10 +28,8 @@ namespace Emigrant.App.Persistencia
         Entidad IRepositorioEntidad.StartSession(string Correo, string Contrasena) {             
             var entidadEncontrada = _appContext.entidades.FirstOrDefault(g => g.Correo == Correo && g.Contrasena == Contrasena );
             
-            //if(entidadEncontrada != null && entidadEncontrada.estado == "habilitado")
             return entidadEncontrada;
-            //else
-            //    return null;
+            
         }
 
         bool IRepositorioEntidad.SearchCorreoEntidad(string correo){
@@ -50,5 +48,55 @@ namespace Emigrant.App.Persistencia
             else
                 return false;
         }
+
+        bool IRepositorioEntidad.UpdateCredencialesEntidad(Entidad entidad, string ContrasenaA)
+        {
+
+            var EntidadEncontrada = _appContext.entidades.FirstOrDefault(g => g.Id == entidad.Id);
+
+            if (EntidadEncontrada != null)
+            {
+                
+                if (EntidadEncontrada.Contrasena.Equals(ContrasenaA))
+                {
+                    EntidadEncontrada.Contrasena = entidad.Contrasena;
+                    _appContext.SaveChanges();
+                    return true;
+                }
+                else
+                    return false;
+                
+            }
+            else
+                return false;
+            
+        }
+
+        Entidad IRepositorioEntidad.UpdateEntidad(Entidad entidad)
+        {
+            var EntidadEncontrada = _appContext.entidades.FirstOrDefault(g => g.Id == entidad.Id);
+
+            if (EntidadEncontrada != null)
+            {
+                EntidadEncontrada.RazonSocial = entidad.RazonSocial;
+                EntidadEncontrada.Direccion = entidad.Direccion;
+                EntidadEncontrada.Ciudad = entidad.Ciudad;
+                EntidadEncontrada.Telefono = entidad.Telefono;
+                EntidadEncontrada.PaginaWeb = entidad.PaginaWeb;
+                EntidadEncontrada.TipoServicios = entidad.TipoServicios;
+                EntidadEncontrada.Sector = entidad.Sector;
+                
+                _appContext.SaveChanges();
+            }
+
+            return EntidadEncontrada;
+
+        }
+
+        Entidad IRepositorioEntidad.GetEntidadByID(int idEntidad){
+            var entidadEncontrada = _appContext.entidades.FirstOrDefault(g => g.Id == idEntidad);            
+            return entidadEncontrada;
+        }
+        
     }
 }

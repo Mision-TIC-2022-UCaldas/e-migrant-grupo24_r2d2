@@ -1,0 +1,69 @@
+﻿@page
+@model Emigrant.App.Presentacion.Pages.ConsultarInformacionEModel
+@{
+}
+
+
+
+
+<div class="content-wrapper" style="display:flex; justify-content:center; align-items:start; background-color:#FFFFFF;">
+  <div class="container-fluid">
+    <div class="row" style="justify-content:center;">
+      <div class="col-md-12" style="padding-top:1rem; padding-left:1rem; padding-right:1rem; ">
+  
+        <div class="card">
+          <div class="card-header" style="background-color:#FCC16D; border-style:none; color:#000000;">
+            <h3 class="card-title">Entidad</h3>
+
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+            </div>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body table-responsive p-0">
+            <table class="table table-hover text-nowrap">
+              <thead>
+                <tr>
+                  <th>RazonSocial</th>
+                  <th>NIT</th>
+                  <th>Correo</th>
+                  <th>Direccion</th>
+                  <th>Pagina WEB</th>
+                  <th>Ciudad</th>
+                  <th>Sector</th>
+                  <th>Tipo Servicio</th>
+                  <th>Telefono</th>
+                  <th>Actualizar</th>
+                </tr>
+              </thead>
+              <tbody>
+                  
+                  <tr>
+                    <td>@Model.entidad.RazonSocial</td>
+                    <td>@Model.entidad.NIT</td>
+                    <td>@Model.entidad.Correo</td>
+                    <td>@Model.entidad.Direccion</td>
+                    <td>@Model.entidad.PaginaWeb</td>
+                    <td>@Model.entidad.Ciudad</td>
+                    <td>@Model.entidad.Sector</td>
+                    <td>@Model.entidad.TipoServicios</td>
+                    <td>@Model.entidad.Telefono</td>
+                    <td>
+                        <form>
+                             <a class="btn btn-primary" asp-page="/Entidades/ActualizarInformacionE" asp-route-Id="@Model.entidad.Id" >Actualizar</a>                    
+                         </form>
+                    </td>
+                  </tr>
+                
+              </tbody>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

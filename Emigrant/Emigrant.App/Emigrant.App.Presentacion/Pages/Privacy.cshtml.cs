@@ -27,6 +27,7 @@ namespace Emigrant.App.Presentacion.Pages
         
         public void OnGet()
         {
+            
         }
 
         public void OnPostSearch(string Documento)

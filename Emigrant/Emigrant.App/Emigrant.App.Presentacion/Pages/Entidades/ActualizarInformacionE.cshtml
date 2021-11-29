@@ -1,0 +1,83 @@
+﻿@page
+@model Emigrant.App.Presentacion.Pages.ActualizarInformacionEModel
+@{
+}
+
+
+<div class="card-header" style="background-color:#FCC16D;">
+    <h1 class="card-title">Actualizar informacion</h1>
+</div>
+
+<form method="post">
+
+	
+	<div >
+        <input asp-for="entidadEncontrada.Id" type="hidden" class="form-control" id="Id"  name="Id" >
+		<input asp-for="entidadEncontrada.RazonSocial" type="text" class="form-control" id="RazonSocial" placeholder="*Razon Social" name="RazonSocial" required>
+		<input asp-for="entidadEncontrada.NIT" type="number" class="form-control" id="NIT" placeholder="NIT" name="NIT" required>
+	</div>
+	
+	<div >
+		<input asp-for="entidadEncontrada.Direccion" type="text" class="form-control" id="Direccion" placeholder="*Direccion" name="Direccion" required>
+		<input  asp-for="entidadEncontrada.Ciudad" type="text" class="form-control" id="Ciudad" placeholder="*Ciudad" name="Ciudad" required>
+		<input asp-for="entidadEncontrada.Telefono" type="number" class="form-control" id="Telefono" placeholder="Telefono" name="Telefono" required>
+		<input asp-for="entidadEncontrada.PaginaWeb" type="text" class="form-control" id="PaginaWeb" placeholder="Pagina Web" name="PaginaWeb">
+	</div>
+	
+	
+	<div >
+		<select  asp-for="entidadEncontrada.Sector" name="Sector" id="Sector" onchange="ShowSelected()" required>
+			<option value="">Seleccione el sector de la Entidad</option>
+			<option value="Publico">Publico</option>
+			<option value="Privado">Privado</option>
+			<option value="Sin animo de lucro">Sin animo de lucro</option>
+			<option value="No gubernamental">No gubernamental</option>
+			<option value="Otro">Otro</option>
+		</select>
+		
+	</div>
+	
+	<div >
+		<select asp-for="entidadEncontrada.TipoServicios" class="form-control" name="TipoServicios" id="TipoServicios" onchange="ShowSelected()" required>
+			<option value="">Seleccione los tipos de servicios</option>
+			<option value="Salud">Salud</option>
+			<option value="Juridicos">Juridicos</option>
+			<option value="Viveres">Viveres</option>
+			<option value="Comida Preparada">Comida Preparada</option>
+			<option value="Empleo">Empleo</option>
+			<option value="Alojamiento Temporal">Alojamiento Temporal</option>
+			<option value="Alojamiento Permanente">Alojamiento Permanente</option>
+			<option value="Educacion">Educacion</option>
+			<option value="Otro">Otro</option>
+		</select>
+	</div>
+	
+	<div >
+	<div >
+            <button type="submit" class="btn btn-primary" asp-page-handler="Update" style="background-color:#FB6A3B; ">Actualizar Entidad</button>
+    </div>
+</form>
+    
+@if (Model.status == 1) {
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="alert alert-success alert-dismissible">
+                          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                          <h5><i class="icon fas fa-ban"></i> Mensaje</h5>
+                          @Model.message
+                      </div>
+                  </div>
+              </div>
+            }
+
+@if (Model.status == 2) {
+      <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-danger alert-dismissible">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+              <h5><i class="icon fas fa-ban"></i>Mensaje</h5>
+              @Model.message
+            </div>
+        </div>
+      </div>
+    } 

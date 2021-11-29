@@ -151,3 +151,10 @@ F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.
 F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ConsultarInformacion.cshtml.g.cs
 F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ActualizarInformacion.cshtml.g.cs
 F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ActualizarContrasena.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\BuscarMigrante.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\AgregarAmigo.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\AgregarFamiliar.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ListarAmigosFamiliares.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\ActualizarContrasenaE.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\ActualizarInformacionE.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\ConsultarInformacionE.cshtml.g.cs
