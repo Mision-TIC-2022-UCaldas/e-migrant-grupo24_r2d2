@@ -158,3 +158,5 @@ F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.
 F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\ActualizarContrasenaE.cshtml.g.cs
 F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\ActualizarInformacionE.cshtml.g.cs
 F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\ConsultarInformacionE.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Gerente\EnviarCorreos.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\RegistrarServicios.cshtml.g.cs

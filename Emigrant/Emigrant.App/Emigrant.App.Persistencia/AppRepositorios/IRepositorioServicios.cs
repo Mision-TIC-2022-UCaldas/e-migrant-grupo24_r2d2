@@ -6,6 +6,9 @@ namespace Emigrant.App.Persistencia
 {
     public interface IRepositorioServicios
     {
-        
+        Servicio AddServicio(Servicio servicio);
+        IEnumerable<Servicio> GetAllServicios();
+        IEnumerable<Servicio> GetServicioByCategoria(string Categoria);
+
     }
 }

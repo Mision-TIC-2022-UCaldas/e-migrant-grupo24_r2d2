@@ -88,14 +88,15 @@ Ingrese sus credenciales para iniciar sesión
     <form>
         <a class="btn btn-primary"asp-page="/Entidades/ActualizarContrasenaE" asp-route-Id="@Model.entidad.Id" >Actualizar credencial</a>                    
     </form>
+    <form>
+        <a class="btn btn-primary"asp-page="/Entidades/RegistrarServicios" asp-route-Id="@Model.entidad.Id" >Registrar Servicios</a>                    
+    </form>
     
 }
 
 @if (Model.sesion == 3)
 {
-    <div>
-        <button type="submit" class="btn btn-primary"  style="background-color:#3272B8
-; ">Enviar Correo a Migrante</button>
-    </div>
-    
+    <form>
+        <a class="btn btn-primary"asp-page="/Gerente/EnviarCorreos" >Enviar correos</a>                    
+    </form>
 }

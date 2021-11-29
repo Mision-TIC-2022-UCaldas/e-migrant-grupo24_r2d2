@@ -1,0 +1,172 @@
+﻿@page
+@model Emigrant.App.Presentacion.Pages.EnviarCorreosModel
+@{
+}
+
+<form name="formulario-contacto">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="Nombre" id="Nombre" />
+    <br />
+
+    <label for="correo">Correo:</label>
+    <input type="email" name="Correo" id="Correo" />
+    <br />
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea name="Mensaje" id="Mensaje"  cols="30" rows="10"></textarea>
+    <br />
+    <input id="enviarCorreoM" type="submit" value="Enviar a todos los migrantes"/>
+    <input id="enviarCorreoE" type="submit" value="Enviar a todas las entidades"/>  
+    
+</form>
+
+<br />
+<br />
+
+<div class="content-wrapper" style="display:flex; justify-content:center; align-items:start; background-color:#FFFFFF;">
+  <div class="container-fluid">
+    <div class="row" style="justify-content:center;">
+      <div class="col-md-12" style="padding-top:1rem; padding-left:1rem; padding-right:1rem; ">
+  
+        <div class="card">
+          <div class="card-header" style="background-color:#FCC16D; border-style:none; color:#000000;">
+            <h3 class="card-title">Lista Migrantes</h3>
+
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+
+            </div>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body table-responsive p-0">
+            <table class="table table-hover text-nowrap">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Apellido</th>
+                  <th>Pais Origen</th>
+                  <th>Ciudad</th>
+                  <th>Tipo Documento</th>
+                  <th>Numero</th>
+                  <th>Suspender Cuenta</th>
+                </tr>
+              </thead>
+              <tbody>
+                @{
+                      if(Model.entidades != null){  
+                        @foreach (var migrante in Model.migrantes)
+                        {
+                        <tr>
+                            <td>@migrante.Nombre</td>
+                            <td>@migrante.Apellido</td>
+                            <td>@migrante.PaisOrigen</td>
+                            <td>@migrante.Ciudad</td>
+                            <td>@migrante.TipoDoc</td>
+                            <td>@migrante.Documento</td>
+                            <td>
+                                <form>
+                                <a class="btn btn-primary"asp-page="" asp-route-Id="@migrante.Id" asp-route-Type="@migrante.TipoCuenta" >Enviar Correo</a>                    
+                            </form>
+                            </td>
+                        </tr>
+                        }
+                      }
+                }
+              </tbody>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br />
+
+
+
+<div class="content-wrapper" style="display:flex; justify-content:center; align-items:start; background-color:#FFFFFF;">
+  <div class="container-fluid">
+    <div class="row" style="justify-content:center;">
+      <div class="col-md-12" style="padding-top:1rem; padding-left:1rem; padding-right:1rem; ">
+  
+        <div class="card">
+          <div class="card-header" style="background-color:#FCC16D; border-style:none; color:#000000;">
+            <h3 class="card-title">Lista Entidades</h3>
+
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+
+            </div>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body table-responsive p-0">
+            <table class="table table-hover text-nowrap">
+              <thead>
+                <tr>
+                  <th>Razon Social</th>
+                  <th>NIT</th>
+                  <th>Direccion</th>
+                  <th>Telefono</th>
+                  <th>Ciudad</th>
+                  <th>Sector</th>
+                  <th>Tipo de Servicio</th>
+                  <th>Suspender Cuenta</th>
+                </tr>
+              </thead>
+              <tbody>
+                  
+                  @{
+                      if(Model.entidades != null){
+                        @foreach (var entidad in Model.entidades)
+                        {
+                            <tr>
+                                <td>@entidad.RazonSocial</td>
+                                <td>@entidad.NIT</td>
+                                <td>@entidad.Direccion</td>
+                                <td>@entidad.Telefono</td>
+                                <td>@entidad.Ciudad</td>
+                                <td>@entidad.Sector</td>
+                                <td>@entidad.TipoServicios</td>
+                                <td>
+                                    <form>
+                                    <a class="btn btn-primary"asp-page="/Admin/SuspenderCuenta" asp-route-Id="@entidad.Id" asp-route-Type="@entidad.TipoCuenta" >Enviar Correo</a>                    
+                                </form>
+                                </td>
+                            </tr>
+                         }
+                      }
+                  }
+                
+              </tbody>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+
+  const btnEnvio = document.getElementById('enviarCorreoM');
+  
+  btnEnvio.addEventListenet('click', funtion(e){
+    @{Console.WriteLine("Por aqui pase");}
+    e.preventDefault();
+    const Correo = document.getElementById('Correo').value;
+    const Nombre = document.getElementById('Nombre').value;
+    const Mensaje = document.getElementById('Mensaje').value;
+    window.location.href='mailto:jedaga123@gmail.com?subject=envioDesdeFormulario&body=Nombre%3A%20${Nombre}%0ACorreo%3A%20${Correo}%0AMensaje%3A%20${Mensaje}';
+    
+  });
+
+</script>

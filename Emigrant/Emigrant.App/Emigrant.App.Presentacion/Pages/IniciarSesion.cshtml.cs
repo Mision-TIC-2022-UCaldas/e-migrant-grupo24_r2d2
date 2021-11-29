@@ -15,9 +15,11 @@ namespace Emigrant.App.Presentacion.Pages
     {
         private static IRepositorioEntidad _repoEntidad = new RepositorioEntidad(new Emigrant.App.Persistencia.AppContext());
         private static IRepositorioMigrante _repoMigrante = new RepositorioMigrante(new Emigrant.App.Persistencia.AppContext());
+        private static IRepositorioGerente _repoGerente = new RepositorioGerente(new Emigrant.App.Persistencia.AppContext());
 
         public Migrante migrante { get; set; }
         public Entidad entidad { get; set; }
+        public Gerente gerente { get; set; }
         [BindProperty]
         public int status { get; set; } = 0;
         [BindProperty]
@@ -31,9 +33,9 @@ namespace Emigrant.App.Presentacion.Pages
 
         public void OnPostStartSession(string Correo, string Contrasena)
         {
-            Contrasena = ObtenerMd5(Contrasena);
+            string ContrasenaE = ObtenerMd5(Contrasena);
             
-            migrante = _repoMigrante.StartSession(Correo, Contrasena);
+            migrante = _repoMigrante.StartSession(Correo, ContrasenaE);
             if(migrante != null){ 
                 if(migrante.estado == "habilitado"){
                     status = 1; 
@@ -49,7 +51,7 @@ namespace Emigrant.App.Presentacion.Pages
             }
             else
             {
-                entidad = _repoEntidad.StartSession(Correo, Contrasena);
+                entidad = _repoEntidad.StartSession(Correo, ContrasenaE);
                 if(entidad != null){ 
                     if(entidad.estado == "habilitado" ){
                         status = 1; 
@@ -63,10 +65,26 @@ namespace Emigrant.App.Presentacion.Pages
                 }
                 else
                 {
-                    status = 2; 
-                    sesion = 0;
-                    message = "Inicio de sesion Incorrecto";
+                    gerente = _repoGerente.StartSession(Correo, Contrasena);
+                    if(gerente != null){ 
+                        if(gerente.estado == "habilitado" ){
+                            status = 1; 
+                            sesion = 3;
+                            message = "Inicio de sesion de " + gerente.Nombre;
+                        }else{
+                            status = 2; 
+                            sesion = 0;
+                            message = "Cuenta suspendida";
+                        }
+                    }
+                    else
+                    {
+                        status = 2; 
+                        sesion = 0;
+                        message = "Inicio de sesion Incorrecto";
+                    }
                 }
+                
             }
             
         }

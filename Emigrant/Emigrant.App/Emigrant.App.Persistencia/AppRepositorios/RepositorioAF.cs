@@ -30,6 +30,12 @@ namespace Emigrant.App.Persistencia
 
 
         // IEnumerable<AF> IRepositorioAF.GetAFbyId(int id){
+             
+        //     var queryIdByAF =
+        //     from cust in amigoFam
+        //     group Tipo by Tipo.;
+
+                  
         //     var af = (from p in _appContext.amigoFam where p.Tipo == "Amigo" select p).First();
                
         //     return af;
