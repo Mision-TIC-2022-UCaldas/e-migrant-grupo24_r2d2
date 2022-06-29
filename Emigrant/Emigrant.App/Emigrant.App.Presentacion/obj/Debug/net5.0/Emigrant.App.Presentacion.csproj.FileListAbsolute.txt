@@ -1,0 +1,162 @@
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.csproj.AssemblyReference.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.AssemblyInfoInputs.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.AssemblyInfo.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.csproj.CoreCompileInputs.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.MvcApplicationPartsAssemblyInfo.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.RazorAssemblyInfo.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.RazorAssemblyInfo.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\appsettings.Development.json
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\appsettings.json
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.exe
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.deps.json
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.runtimeconfig.json
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.runtimeconfig.dev.json
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\ref\Emigrant.App.Presentacion.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.Views.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.Views.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Dominio.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Persistencia.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Dominio.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Persistencia.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\scopedcss\bundle\Emigrant.App.Presentacion.styles.css
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\staticwebassets\Emigrant.App.Presentacion.StaticWebAssets.Manifest.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.TagHelpers.input.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.TagHelpers.output.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.RazorCoreGenerate.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.RazorTargetAssemblyInfo.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.RazorTargetAssemblyInfo.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.Views.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.csproj.CopyComplete
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\ref\Emigrant.App.Presentacion.dll
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.pdb
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.genruntimeconfig.cache
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\RegisterM.cshtml.g.cs
+F:\Descargas\Google chrome\Emigrant-master\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\RegisterE.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\appsettings.Development.json
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\appsettings.json
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.exe
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.deps.json
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.runtimeconfig.json
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.runtimeconfig.dev.json
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\ref\Emigrant.App.Presentacion.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.Views.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Presentacion.Views.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Dominio.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Persistencia.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Dominio.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\bin\Debug\net5.0\Emigrant.App.Persistencia.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.csproj.AssemblyReference.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.AssemblyInfoInputs.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.AssemblyInfo.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.csproj.CoreCompileInputs.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.MvcApplicationPartsAssemblyInfo.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.RazorAssemblyInfo.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.RazorAssemblyInfo.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\scopedcss\bundle\Emigrant.App.Presentacion.styles.css
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\staticwebassets\Emigrant.App.Presentacion.StaticWebAssets.Manifest.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.TagHelpers.input.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.TagHelpers.output.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.RazorCoreGenerate.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\RegisterE.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\RegisterM.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.RazorTargetAssemblyInfo.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.RazorTargetAssemblyInfo.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.Views.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.csproj.CopyComplete
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\ref\Emigrant.App.Presentacion.dll
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.pdb
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Emigrant.App.Presentacion.genruntimeconfig.cache
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\IniciarSesion.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Admin.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Admin\ListarCuentas.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Admin\SuspenderCuenta.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ConsultarInformacion.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ActualizarInformacion.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ActualizarContrasena.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\BuscarMigrante.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\AgregarAmigo.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\AgregarFamiliar.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Migrantes\ListarAmigosFamiliares.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\ActualizarContrasenaE.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\ActualizarInformacionE.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\ConsultarInformacionE.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Gerente\EnviarCorreos.cshtml.g.cs
+F:\Documentos\Jesus\MisionTIC\Hackaton\e-migrant-grupo24_r2d2\Emigrant\Emigrant.App\Emigrant.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Entidades\RegistrarServicios.cshtml.g.cs

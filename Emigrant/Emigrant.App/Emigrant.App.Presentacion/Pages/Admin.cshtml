@@ -1,0 +1,66 @@
+﻿@page
+@model Emigrant.App.Presentacion.Pages.AdminModel
+@{
+}
+<br />
+Ingrese sus credenciales de administrador
+<br />
+</p>
+
+<form method="post">
+    <div class="input-group mb-3">
+        <input type="email" class="form-control" id="Correo" placeholder="Correo" name="Correo" required>
+        <div class="input-group-append">
+            <div class="input-group-text">
+                <span class="fas fa-envelope"></span>
+            </div>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <input type="password" class="form-control" id="Contrasena" placeholder="Contraseña" name="Contrasena">
+        <div class="input-group-append">
+            <div class="input-group-text">
+                <span class="fas fa-lock"></span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary btn-block" style="background-color: #0DE73F;"
+            asp-page-handler="StartSession">
+            Iniciar sesión de Administrador
+        </button>
+    </div>
+
+    @if (Model.status == 2)
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <h5><i class="icon fas fa-ban"></i>Mensaje</h5>
+                @Model.message
+            </div>
+        </div>
+    </div>
+
+}
+
+@if (Model.sesion == 1)
+{
+    
+    <div>
+        <a class="btn btn-primary"asp-area="" asp-page="/Admin/ListarCuentas" style="background-color: #3272B8;">Listar Cuentas</a>
+        
+        <button type="submit" class="btn btn-primary"  style="background-color:#3272B8; ">Informe Cuentas</button>
+
+        <button type="submit" class="btn btn-primary"  style="background-color:#3272B8; ">Cambios de contraseñas pendientes</button>
+
+        <button type="submit" class="btn btn-primary"  style="background-color:#FA3C3C; ">BORRAR TODOS LOS DATOS</button>
+    </div>
+}
+
+
+</form>
+
+
+

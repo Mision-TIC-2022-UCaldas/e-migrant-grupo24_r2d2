@@ -1,0 +1,102 @@
+﻿@page
+@model Emigrant.App.Presentacion.Pages.IniciarSesionModel
+@{
+}
+<br />
+Ingrese sus credenciales para iniciar sesión
+<br />
+</p>
+
+<form method="post">
+    <div class="input-group mb-3">
+        <input type="email" class="form-control" id="Correo" placeholder="Correo" name="Correo" required>
+        <div class="input-group-append">
+            <div class="input-group-text">
+                <span class="fas fa-envelope"></span>
+            </div>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <input type="password" class="form-control" id="Contrasena" placeholder="Contraseña" name="Contrasena">
+        <div class="input-group-append">
+            <div class="input-group-text">
+                <span class="fas fa-lock"></span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary btn-block" style="background-color: #FB6A3B;"
+            asp-page-handler="StartSession">
+            Iniciar sesión
+        </button>
+
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-page="/RegisterM" style="background-color: #33FFEC;">Registrar
+                Migrante</a>
+            <a class="nav-link text-dark" asp-area="" asp-page="/RegisterE" style="background-color: #33FFEC;">Registrar
+                Entidad</a>
+        </li>
+    </div>
+</form>
+
+@if (Model.status == 1) {
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="alert alert-success alert-dismissible">
+                          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                          <h5><i class="icon fas fa-ban"></i> Mensaje</h5>
+                          @Model.message
+                      </div>
+                  </div>
+              </div>
+            }
+
+@if (Model.status == 2)
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <h5><i class="icon fas fa-ban"></i>Mensaje</h5>
+                @Model.message
+            </div>
+        </div>
+    </div>
+}
+
+@if (Model.sesion == 1)
+{
+    <form>
+        <a class="btn btn-primary"asp-page="/Migrantes/ConsultarInformacion" asp-route-Id="@Model.migrante.Id" >Consultar Informacion</a>                    
+    </form>
+    <form>
+        <a class="btn btn-primary"asp-page="/Migrantes/ActualizarContrasena" asp-route-Id="@Model.migrante.Id" >Actualizar credencial</a>                    
+    </form>
+    <form>
+        <a class="btn btn-primary"asp-page="/Migrantes/BuscarMigrante" asp-route-Id="@Model.migrante.Id"  >BuscarMigrante</a>                    
+    </form>
+    <form>
+        <a class="btn btn-primary"asp-page="/Migrantes/ListarAmigosFamiliares" asp-route-Id="@Model.migrante.Id"  >Listar amigos y familiares</a>                    
+    </form>
+}
+
+@if (Model.sesion == 2)
+{
+    <form>
+        <a class="btn btn-primary"asp-page="/Entidades/ConsultarInformacionE" asp-route-Id="@Model.entidad.Id" >Consultar Informacion</a>                    
+    </form>
+    <form>
+        <a class="btn btn-primary"asp-page="/Entidades/ActualizarContrasenaE" asp-route-Id="@Model.entidad.Id" >Actualizar credencial</a>                    
+    </form>
+    <form>
+        <a class="btn btn-primary"asp-page="/Entidades/RegistrarServicios" asp-route-Id="@Model.entidad.Id" >Registrar Servicios</a>                    
+    </form>
+    
+}
+
+@if (Model.sesion == 3)
+{
+    <form>
+        <a class="btn btn-primary"asp-page="/Gerente/EnviarCorreos" >Enviar correos</a>                    
+    </form>
+}

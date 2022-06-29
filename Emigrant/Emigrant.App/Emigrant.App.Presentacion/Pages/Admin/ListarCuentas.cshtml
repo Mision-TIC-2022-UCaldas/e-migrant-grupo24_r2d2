@@ -1,0 +1,184 @@
+﻿@page
+@model Emigrant.App.Presentacion.Pages.ListarCuentasModel
+@{
+}
+
+
+
+
+<div class="content-wrapper" style="display:flex; justify-content:center; align-items:start; background-color:#FFFFFF;">
+  <div class="container-fluid">
+    <div class="row" style="justify-content:center;">
+      <div class="col-md-12" style="padding-top:1rem; padding-left:1rem; padding-right:1rem; ">
+  
+        <div class="card">
+          <div class="card-header" style="background-color:#FCC16D; border-style:none; color:#000000;">
+            <h3 class="card-title">Lista Migrantes</h3>
+
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+
+            </div>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body table-responsive p-0">
+            <table class="table table-hover text-nowrap">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Apellido</th>
+                  <th>Pais Origen</th>
+                  <th>Ciudad</th>
+                  <th>Tipo Documento</th>
+                  <th>Numero</th>
+                  <th>Suspender Cuenta</th>
+                </tr>
+              </thead>
+              <tbody>
+                  
+                @foreach (var migrante in Model.migrantes)
+                {
+                  <tr>
+                    <td>@migrante.Nombre</td>
+                    <td>@migrante.Apellido</td>
+                    <td>@migrante.PaisOrigen</td>
+                    <td>@migrante.Ciudad</td>
+                    <td>@migrante.TipoDoc</td>
+                    <td>@migrante.Documento</td>
+                    <td>
+                        <form>
+                        <a class="btn btn-primary"asp-page="/Admin/SuspenderCuenta" asp-route-Id="@migrante.Id" asp-route-Type="@migrante.TipoCuenta" >Suspender</a>                    
+                      </form>
+                    </td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="content-wrapper" style="display:flex; justify-content:center; align-items:start; background-color:#FFFFFF;">
+  <div class="container-fluid">
+    <div class="row" style="justify-content:center;">
+      <div class="col-md-12" style="padding-top:1rem; padding-left:1rem; padding-right:1rem; ">
+  
+        <div class="card">
+          <div class="card-header" style="background-color:#FCC16D; border-style:none; color:#000000;">
+            <h3 class="card-title">Lista Entidades</h3>
+
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+
+            </div>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body table-responsive p-0">
+            <table class="table table-hover text-nowrap">
+              <thead>
+                <tr>
+                  <th>Razon Social</th>
+                  <th>NIT</th>
+                  <th>Direccion</th>
+                  <th>Telefono</th>
+                  <th>Ciudad</th>
+                  <th>Sector</th>
+                  <th>Tipo de Servicio</th>
+                  <th>Suspender Cuenta</th>
+                </tr>
+              </thead>
+              <tbody>
+                  
+                @foreach (var entidad in Model.entidades)
+                {
+                  <tr>
+                    <td>@entidad.RazonSocial</td>
+                    <td>@entidad.NIT</td>
+                    <td>@entidad.Direccion</td>
+                    <td>@entidad.Telefono</td>
+                    <td>@entidad.Ciudad</td>
+                    <td>@entidad.Sector</td>
+                    <td>@entidad.TipoServicios</td>
+                    <td>
+                        <form>
+                        <a class="btn btn-primary"asp-page="/Admin/SuspenderCuenta" asp-route-Id="@entidad.Id" asp-route-Type="@entidad.TipoCuenta" >Suspender</a>                    
+                      </form>
+                    </td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="content-wrapper" style="display:flex; justify-content:center; align-items:start; background-color:#FFFFFF;">
+  <div class="container-fluid">
+    <div class="row" style="justify-content:center;">
+      <div class="col-md-12" style="padding-top:1rem; padding-left:1rem; padding-right:1rem; ">
+  
+        <div class="card">
+          <div class="card-header" style="background-color:#FCC16D; border-style:none; color:#000000;">
+            <h3 class="card-title">Lista Gerentes</h3>
+
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+
+            </div>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body table-responsive p-0">
+            <table class="table table-hover text-nowrap">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Apellido</th>
+                  <th>Correo</th>
+                  <th>Estado Cuenta</th>
+                  <th>Suspender Cuenta</th>
+                </tr>
+              </thead>
+              <tbody>
+                @foreach (var gerente in Model.gerentes)
+                {
+                  <tr>
+                    <td>@gerente.Nombre</td>
+                    <td>@gerente.Apellido</td>
+                    <td>@gerente.Correo</td>
+                    <td>@gerente.estado</td>
+                    <td>
+                      <form>
+                        <a class="btn btn-primary"asp-page="/Admin/SuspenderCuenta" asp-route-Id="@gerente.Id" asp-route-Type="@gerente.TipoCuenta" >Suspender</a>                    
+                      </form>
+                    </td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

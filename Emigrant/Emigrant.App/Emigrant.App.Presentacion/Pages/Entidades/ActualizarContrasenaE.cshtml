@@ -1,0 +1,49 @@
+﻿@page
+@model Emigrant.App.Presentacion.Pages.ActualizarContrasenaEModel
+@{
+}
+
+
+<div class="card-header" style="background-color:#FCC16D;">
+    <h1 class="card-title">Digite la contraseña nueva</h1>
+</div>
+
+<form method="post">
+
+
+    <div>
+        <input asp-for="entidadEncontrada.Id" type="hidden" class="form-control" id="Id" name="Id" >
+        <input type="password" class="form-control" id="ContrasenaAntigua" placeholder="*Contraseña Antigua" name="ContrasenaAntigua" required>
+        <input  type="password" class="form-control" required minlength="8" min="8" id="Contrasena" placeholder="*Contraseña Nueva" name="Contrasena" required>
+        
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary" asp-page-handler="UpdateContrasena"
+            style="background-color:#FB6A3B; ">Actualizar Contraseña</button>
+    </div>
+</form>
+
+@if (Model.status == 1) {
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="alert alert-success alert-dismissible">
+                          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                          <h5><i class="icon fas fa-ban"></i> Mensaje</h5>
+                          @Model.message
+                      </div>
+                  </div>
+              </div>
+            }
+
+@if (Model.status == 2) {
+      <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-danger alert-dismissible">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+              <h5><i class="icon fas fa-ban"></i>Mensaje</h5>
+              @Model.message
+            </div>
+        </div>
+      </div>
+    } 
